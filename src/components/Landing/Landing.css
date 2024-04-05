@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Judson:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&display=swap');
+
+.landing {
+  height: 100vh; /* Sets the height to be equal to the viewport height */
+  background-color: #231F20; /* Background color */
+  color: white; /* Text color */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing h1 {
+  font-family: "Italiana", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 550%;
+  margin-bottom: 0px;
+  z-index: 2;
+}
+
+.landing p {
+  font-family: "Judson", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 200%;
+  margin-top: 0px;
+  z-index: 2;
+}
+
+.circle {
+  position: absolute;
+  width: 35%;
+  aspect-ratio: 1/1;
+  /* height: 450px; */
+  border-radius: 50%;
+  background-color: #FFFFFF;
+}
+
+.circle1 {
+  background-color: #FF5001;
+  left: 18%;
+  z-index: 1;
+}
+
+.circle2 {
+  background-color: #B3AEA8;
+  right: 18%;
+  z-index: 1;
+}
+
+.arrow-container {
+  position: absolute;
+  bottom: 20px;
+}
+
+.arrow-svg {
+  width: 40px;
+  height: 40px;
+}

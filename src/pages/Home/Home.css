@@ -1,0 +1,7 @@
+.home-page {
+  width: 99vw; /* Sets the width to cover the entire display */
+  height: 500vh; /* Sets the height to be equal to the viewport height */
+  /* min-height: 500px; Sets a minimum height of 500px */
+  background-color: #231F20; /* Sets the background color */
+  color: #FFFFFF; /* Sets text color to white */
+}
