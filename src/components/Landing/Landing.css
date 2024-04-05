@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&display=swap');
 
 .landing {
-  height: 100vh; /* Sets the height to be equal to the viewport height */
+  height: 90vh; /* Sets the height to be equal to the viewport height */
   background-color: #231F20; /* Background color */
   color: white; /* Text color */
   display: flex;

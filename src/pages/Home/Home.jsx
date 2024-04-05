@@ -5,12 +5,12 @@ import Landing from '../../components/Landing/Landing';
 
 function Home() {
   return (
-    <>
+    <div className='home-page'>
       <Navbar />
       <div className='home-page'>
         <Landing />
       </div>
-    </>
+    </div>
   );
 }
 export default Home;
