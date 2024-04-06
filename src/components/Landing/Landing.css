@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&display=swap');
 
 .landing {
-  height: 90vh; /* Sets the height to be equal to the viewport height */
+  height: 100vh; /* Sets the height to be equal to the viewport height */
   background-color: #231F20; /* Background color */
   color: white; /* Text color */
   display: flex;
@@ -15,7 +15,7 @@
   font-family: "Italiana", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 550%;
+  font-size: 6vw;
   margin-bottom: 0px;
   z-index: 2;
 }
@@ -24,7 +24,7 @@
   font-family: "Judson", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 200%;
+  font-size: 2.4vw;
   margin-top: 0px;
   z-index: 2;
 }

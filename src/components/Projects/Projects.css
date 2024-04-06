@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Judson:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&display=swap');
+
+.project-main {
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Arrange divs in a column */
+  align-items: center;
+}
+
+.project {
+  padding-top: 10%;
+  padding-bottom: 2%;
+  font-family: "Italiana", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5.4vw;
+}
+
+.custom-carousel-container {
+  width: 100%; /* Adjust the width of the container */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.custom-carousel {
+  padding: 20px; /* Add padding to the carousel */
+}
+
+.carousel-item-div {
+  background-color: transparent;
+  height: 50vh;
+  text-align:center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-item-content {
+  background-color: transparent;
+  height: 50vh;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.project-image-code {
+  background-color: black;
+  height: 100%;
+  border-radius: 15px;
+  object-fit:contain;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-image {
+  height: 100%;
+  border-radius: 15px;
+  object-fit:contain;
+  transition-duration: 500ms;
+  z-index: 10;
+}
+
+.code-button {
+  position: absolute;
+  color: #FF5001;
+  border: 2px solid #FF5001;
+  height: 10%;
+  width: 10%;
+  z-index: 11;
+  opacity: 0%;
+  border-radius: 15px;
+  transition-duration: 500ms;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Judson", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.6vw;
+}
+
+.project-info {
+  height: 90%;
+  flex-grow: 3;
+  margin-left: 2%;
+  display: flex;
+  text-align:justify;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 10;
+}
+
+.project-title {
+  padding-left: 5%;
+  padding-top: 2%;
+  font-family: "Judson", serif;
+  font-weight: 400;
+  font-style: bold;
+  font-size: 3.2vw;
+}
+
+.project-desc {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  font-family: "Judson", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.6vw;
+}
+
+.project-image-code:hover .project-image{
+  opacity: 50%;
+}
+
+.project-image-code:hover .code-button {
+  opacity: 100%;
+  z-index: 11;
+}
+
+.code-button:hover {
+  color: white;
+  background-color: #FF5001;
+}
