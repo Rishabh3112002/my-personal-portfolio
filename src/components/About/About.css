@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Judson:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&display=swap');
+
+.about-main {
+  height: 100vh;
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-title {
+  padding-top: 8%;
+  padding-bottom: 5%;
+  font-family: "Italiana", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5.4vw;
+}
+
+.about {
+  width: 90%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.about-text {
+  padding-left: 5%;
+  height: 100%;
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: "Judson", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3vmin;
+  text-align: justify;
+}
+
+.about-image-container {
+  height: 90%;
+  width: 30%;
+  border-radius: 15px;
+  object-fit:contain;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.about-image {
+  height: auto;
+  width: auto;
+  max-height: 100%;
+  max-width: 100%;
+  border-radius: 15px;
+  object-fit:contain;
+  transition-duration: 500ms;
+  z-index: 10;
+}

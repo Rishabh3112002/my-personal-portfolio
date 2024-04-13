@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Judson:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&display=swap');
+
+.skill-main {
+  height: 100vh;
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Arrange divs in a column */
+  align-items: center;
+}
+
+.skill-title {
+  padding-top: 8%;
+  padding-bottom: 5%;
+  font-family: "Italiana", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5.4vw;
+}
+
+.skills {
+  height: 60%;
+  width: 80%;
+  border: 1px solid #B3AEA8;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.programming {
+  height: 100%;
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sep1 {
+  background-color: #FF5001;
+  height: 70%;
+  width: 1px;
+}
+
+.technologies {
+  height: 100%;
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sep2 {
+  background-color: #FF5001;
+  height: 70%;
+  width: 1px;
+}
+
+.softskills {
+  height: 100%;
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.head {
+  padding-top: 5%;
+  height: 10%;
+  font-family: "Judson", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 4vmin;
+}
+
+.skill-list {
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skill-list-name {
+  font-family: "Judson", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4vmin;
+  text-align: center;
+}

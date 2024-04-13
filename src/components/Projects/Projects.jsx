@@ -4,7 +4,7 @@ import Carousel from "react-bootstrap/Carousel";
 
 const Projects = ({ slides }) => {
   return (
-    <div className="project-main">
+    <div id="proj" className="project-main">
       <div className="project">~Projects~</div>
       <div className="custom-carousel-container">
         <Carousel className="custom-carousel">

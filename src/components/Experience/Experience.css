@@ -87,7 +87,42 @@
   font-size: 1.6vw;
 }
 
-.project-info {
+.experience-company-role {
+  height: 90%;
+  width: 30%;
+  border-radius: 15px;
+  object-fit:contain;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.experience-company {
+  font-family: "Judson", serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 3.2vw;
+}
+
+.experience-role {
+  padding-bottom: 10%;
+  font-family: "Judson", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2vw;
+}
+
+.experience-duration {
+  font-family: "Judson", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.3vw;
+}
+
+.experience-info {
   height: 90%;
   width: 70%;
   flex-grow: 3;
@@ -95,27 +130,16 @@
   display: flex;
   text-align:justify;
   justify-content: center;
+  /* align-items: center; */
   flex-direction: column;
   z-index: 10;
 }
 
-.project-title {
-  padding-left: 5%;
-  padding-top: 2%;
-  font-family: "Judson", serif;
-  font-weight: bold;
-  font-style: normal;
-  font-size: 3.2vw;
-}
-
-.project-desc {
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-bottom: 5%;
+.experience-desc {
   font-family: "Judson", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 1.6vw;
+  font-size: 1.4vw;
 }
 
 .project-image-code:hover .project-image{

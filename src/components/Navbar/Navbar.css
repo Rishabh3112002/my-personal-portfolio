@@ -33,9 +33,10 @@
   font-style: normal;
   font-size: 2vw;
   text-decoration: none;
+  transition-duration: 500ms;
 }
 
 .nav-link1:hover {
   color: white;
-  text-decoration: underline;
+  text-decoration: underline solid #FF5001;
 }
