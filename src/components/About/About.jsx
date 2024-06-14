@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css";
+import Spline from "@splinetool/react-spline";
 
 function About() {
   return (
@@ -9,13 +10,20 @@ function About() {
       </div>
       <div className="about">
         <div className="about-image-container">
-          <img
-            className="about-image"
-            src={'src/assets/me.png'}
-          />
+          <Spline scene="https://prod.spline.design/PH5mqG7HXkp3kme5/scene.splinecode" />
         </div>
         <p className="about-text">
-          Dive into the innovative world of Rishabh Kathiravan, a solo AI engineer with a passion for pushing the boundaries of technology. With a focus on computer vision and NLP, Rishabh's portfolio showcases his expertise in implementing AI models even in JavaScript, providing scalable solutions that redefine the future. From pioneering projects to scalable AI engineering, Rishabh's journey reflects his commitment to crafting tomorrow's tech. Join him as he navigates the realms of AI, transforming ideas into impactful realities and shaping the future of innovation.
+          Hello! I am Rishabh - an India-based AI Engineer & Software
+          Developer. My love affair with computers started at the age of 5
+          with classics like "Dangerous Dave" and "Prince of Persia." Fast
+          forward to today, and I'm all about turning cool ideas into code,
+          crafting scalable AI models in Computer Vision and Natural Language
+          Processing - and all that without using fancy Language models! With over 2
+          years of professional experience even before I wrapped up my
+          undergrad, I'm all about diving into challenging projects and making
+          them work. When I'm not in coding mode, you'll find me
+          binge-watching anime or shooting hoops on the basketball court.
+          Let's create something awesome together!
         </p>
       </div>
     </div>

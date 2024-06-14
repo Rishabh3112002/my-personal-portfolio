@@ -72,6 +72,7 @@ function Home() {
             <Experience slides={experiences} />
           </div>
         </div>
+        
       )}
     </>
   );
