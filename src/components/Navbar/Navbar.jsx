@@ -32,7 +32,7 @@ function Navbar() {
           </a>
         </li>
         <li className="nav-item1">
-          <a href="#" className="nav-link1">
+          <a href="#contacts" className="nav-link1">
             Say Hello!
           </a>
         </li>

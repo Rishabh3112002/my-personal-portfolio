@@ -10,6 +10,7 @@ import Skills from "../../components/Skills/Skills";
 import Experience from "../../components/Experience/Experience";
 import projects from "../../models/projects";
 import experiences from "../../models/experiences";
+import Contacts from "../../components/Contacts/Contacts";
 
 function Home() {
   const [loading, setLoading] = useState(true);
@@ -70,6 +71,7 @@ function Home() {
             <Projects slides={projects} />
             <Skills />
             <Experience slides={experiences} />
+            <Contacts />
           </div>
         </div>
         

@@ -3,8 +3,8 @@ import "./Skills.css";
 
 function Skills() {
   return (
-    <div className="skill-main">
-      <div id="skill" className="skill-title">
+    <div id="skill" className="skill-main">
+      <div className="skill-title">
         ~Skills~
       </div>
       <div className="skills">

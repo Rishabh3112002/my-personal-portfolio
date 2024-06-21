@@ -35,3 +35,12 @@
   pointer-events: none;
   z-index: 10000;
 }
+
+@media (max-width: 768px) {
+  .mouse-tracker {
+    opacity: 0;
+  }
+  .mouse-tracker-centre {
+    transform: scale(0);
+  }
+}

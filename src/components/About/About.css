@@ -1,49 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Italiana&family=Judson:ital,wght@0,400;0,700;1,400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One');
 
 .about-main {
   height: 100vh;
-  display: flex; 
+  display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 .about-title {
-  padding-top: 8%;
-  padding-bottom: 5%;
-  font-family: "Italiana", sans-serif;
+  padding-top: 5%;
+  padding-bottom: 3%;
+  font-family: "Italiana", serif;
   font-weight: 400;
-  font-style: normal;
   font-size: 5.4vw;
+  text-align: center;
 }
 
 .about {
   width: 90%;
-  height: 500px;
+  max-width: 1200px;
   display: flex;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
 }
 
 .about-text {
   padding-left: 5%;
-  height: 90%;
-  width: 70%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-family: "Judson", sans-serif;
+  width: 100%;
+  font-family: "Judson", serif;
   font-weight: 400;
-  font-style: normal;
-  font-size: 2.8vmin;
+  font-size: 3.2vmin;
   text-align: justify;
+  line-height: 1.6;
+  margin-top: 20px;
 }
 
 .about-image-container {
   height: 90%;
-  width: 30%;
+  width: 90%;
   border-radius: 15px;
   object-fit:contain;
   left: 0px;
@@ -51,4 +49,27 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
+}
+
+.about-image-container canvas {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Responsive adjustments */
+@media (min-width: 768px) {
+  .about {
+    flex-direction: row;
+  }
+
+  .about-text {
+    width: 70%;
+    font-size: 2.8vmin;
+  }
+
+  .about-image-container {
+    width: 30%;
+    margin-right: 5%;
+  }
 }

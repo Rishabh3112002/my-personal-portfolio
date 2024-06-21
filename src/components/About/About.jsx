@@ -4,8 +4,8 @@ import Spline from "@splinetool/react-spline";
 
 function About() {
   return (
-    <div className="about-main">
-      <div id="about" className="about-title">
+    <div id="about" className="about-main">
+      <div className="about-title">
         ~About~
       </div>
       <div className="about">

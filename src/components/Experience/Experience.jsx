@@ -4,8 +4,8 @@ import Carousel from "react-bootstrap/Carousel";
 
 const Experience = ({ slides }) => {
   return (
-    <div id="exp" className="project-main">
-      <div className="project">~Work~</div>
+    <div id="exp" className="experience-main">
+      <div className="experience">~Work~</div>
       <div className="custom-carousel-container">
         <Carousel className="custom-carousel">
           {slides.map((slide, index) => (

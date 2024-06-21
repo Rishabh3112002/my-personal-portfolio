@@ -9,9 +9,9 @@ function Landing() {
       <div className="circle circle2"></div>
       <h1 className="name">Rishabh Kathiravan</h1>
       <p className="position">Software Developer/AI Engineer</p>
-      <div className="arrow-container">
+      <a href="#about" className="arrow-container">
         <img src={arrowSvg} alt="Double Arrow" className="arrow-svg" />
-      </div>
+      </a>
     </div>
   );
 }

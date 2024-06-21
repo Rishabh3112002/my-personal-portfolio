@@ -9,7 +9,7 @@
 }
 
 .project {
-  padding-top: 8%;
+  padding-top: 5%;
   padding-bottom: 5%;
   font-family: "Italiana", sans-serif;
   font-weight: 400;
@@ -130,4 +130,38 @@
 .code-button:hover {
   color: white;
   background-color: #FF5001;
+}
+
+@media (max-width: 768px) {
+  .project {
+    padding-top: 12%;
+    padding-bottom: 8%;
+    font-size: 6vw;
+  }
+
+  .project-title {
+    font-size: 5vw;
+  }
+
+  .project-desc {
+    font-size: 3vw;
+  }
+
+  .carousel-item-div {
+    height: 70vh; /* Adjust height for smaller screens */
+  }
+
+  .project-image-code {
+    width: 50%;
+  }
+
+  .project-info {
+    width: 50%;
+  }
+
+  .code-button {
+    font-size: 3vw;
+    height: 15%;
+    width: 15%;
+  }
 }

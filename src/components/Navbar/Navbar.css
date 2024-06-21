@@ -6,9 +6,11 @@
   height: 8vh;
   top: 0;
   left: 0;
-  padding: 15px;
+  padding: 0 15px;
   width: 100%;
   z-index: 100;
+  display: flex;
+  align-items: center;
 }
 
 .navbar-nav1 {
@@ -16,6 +18,8 @@
   margin: 0;
   padding: 0;
   display: flex;
+  width: 100%;
+  justify-content: flex-start;
 }
 
 .nav-item-first1 {
@@ -31,12 +35,28 @@
   font-family: "Judson", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 2vw;
+  font-size: 1.5vw;
   text-decoration: none;
-  transition-duration: 500ms;
+  transition: color 500ms, text-decoration 500ms;
 }
 
 .nav-link1:hover {
-  color: white;
+  color: #FF5001;
   text-decoration: underline solid #FF5001;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .navbar1 {
+    height: auto;
+    padding: 10px;
+  }
+
+  .nav-link1 {
+    font-size: 4vw;
+  }
+
+  .nav-item1, .nav-item-first1 {
+    margin-left: 3%;
+  }
 }

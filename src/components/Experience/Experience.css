@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Italiana&family=Judson:ital,wght@0,400;0,700;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&display=swap');
 
-.project-main {
+.experience-main {
   display: flex;
   height: 100vh;
   flex-direction: column;
   align-items: center;
 }
 
-.project {
+.experience {
   padding-top: 8%;
   padding-bottom: 5%;
   font-family: "Italiana", sans-serif;
@@ -43,48 +43,6 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-}
-
-.project-image-code {
-  height: 90%;
-  width: 30%;
-  border-radius: 15px;
-  object-fit:contain;
-  left: 0px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-}
-
-.project-image {
-  height: auto;
-  width: auto;
-  max-height: 100%;
-  max-width: 100%;
-  border-radius: 15px;
-  object-fit:contain;
-  transition-duration: 500ms;
-  z-index: 10;
-}
-
-.code-button {
-  position: absolute;
-  color: #FF5001;
-  border: 2px solid #FF5001;
-  height: 10%;
-  width: 10%;
-  z-index: 11;
-  opacity: 0%;
-  border-radius: 15px;
-  transition-duration: 500ms;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: "Judson", serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 1.6vw;
 }
 
 .experience-company-role {
@@ -142,16 +100,22 @@
   font-size: 1.4vw;
 }
 
-.project-image-code:hover .project-image{
-  opacity: 70%;
-}
+@media (max-width: 768px) {
+  .experience {
+    padding-top: 12%;
+    padding-bottom: 8%;
+    font-size: 6vw;
+  }
 
-.project-image-code:hover .code-button {
-  opacity: 100%;
-  z-index: 11;
-}
+  .experience-desc {
+    font-size: 3vw;
+  }
 
-.code-button:hover {
-  color: white;
-  background-color: #FF5001;
+  .carousel-item-div {
+    height: 70vh; /* Adjust height for smaller screens */
+  }
+
+  .experience-info {
+    width: 50%;
+  }
 }

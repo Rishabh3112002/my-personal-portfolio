@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Italiana&family=Judson:ital,wght@0,400;0,700;1,400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&display=swap');
 
 .background {
   height: 100vh;
   width: 100vw;
-	background-color: #231F20;
+  background-color: #231F20;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,25 +11,25 @@
 
 @keyframes cirle {
   0% {
-    left: 50%;
+    left: 25%;
   }
   50% {
-    left: 46.6%;
+    left: 50%;
   }
   100% {
-    left: 50%;
+    left: 25%;
   }
 }
 
 @keyframes secundCirle {
   0% {
-    left: 46.6%;
-  }
-  50% {
     left: 50%;
   }
+  50% {
+    left: 25%;
+  }
   100% {
-    left: 46.6%;
+    left: 50%;
   }
 }
 
@@ -45,14 +44,19 @@
   justify-content: center;
   align-items: center;
   background-color: #3e3739;
-  height: 200px;
-  width: 200px;
-  border-radius: 100px;
+  height: 20vw; /* Relative to viewport width */
+  width: 20vw;  /* Relative to viewport width */
+  max-width: 200px; /* Limit max size */
+  max-height: 200px; /* Limit max size */
+  border-radius: 50%; /* Make it a circle */
+  position: relative;
 }
 
-.circle-1 {
-  width: 50px;
-  height: 50px;
+.circle-1, .circle-2 {
+  width: 5vw; /* Relative to viewport width */
+  height: 5vw; /* Relative to viewport width */
+  max-width: 50px; /* Limit max size */
+  max-height: 50px; /* Limit max size */
   position: absolute;
   display: flex;
   justify-content: center;
@@ -61,30 +65,34 @@
   font-family: "Judson", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 1.6vw;
+  font-size: 1.6vw; /* Relative to viewport width */
   background-color: #FF5001;
-  border-radius: 100%;
+  border-radius: 50%;
   box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.5);
+}
+
+.circle-1 {
   animation: cirle 2s 0s infinite;
   z-index: 2;
 }
 
 .circle-2 {
-  width: 50px;
-  height: 50px;
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #ffffff;
-  font-family: "Judson", serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 1.6vw;
   background-color: #B3AEA8;
-  border-radius: 100%;
-  box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.5);
   animation: 
     secundCirle 2s 0s infinite,
     changeIndex 2s steps(1) infinite;
+}
+
+/* Media query for small screens */
+@media (max-width: 600px) {
+  .atom {
+    height: 60vw; /* Increase relative size on small screens */
+    width: 60vw;
+  }
+  
+  .circle-1, .circle-2 {
+    width: 16vw;
+    height: 16vw;
+    font-size: 4vw;
+  }
 }
