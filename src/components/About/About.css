@@ -57,6 +57,19 @@
   object-fit: contain;
 }
 
+.resume {
+  color: white;
+  font-family: "Judson", serif;
+  text-decoration: none;
+  text-decoration: underline;
+  transition: color 500ms, text-decoration 500ms;
+}
+
+.resume:hover {
+  color: #FF5001;
+  text-decoration: underline solid #FF5001;
+}
+
 /* Responsive adjustments */
 @media (min-width: 768px) {
   .about {
