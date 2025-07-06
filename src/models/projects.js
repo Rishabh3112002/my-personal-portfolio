@@ -1,5 +1,12 @@
 const projects = [
   {
+    title: "FaceTag",
+    content:
+      "A face recognition-based attendance system, capable of performing 1,000 comparisons per second, ensuring rapid and accurate attendance tracking.",
+    imageUrl: "https://third-eye.ai/wp-content/uploads/2024/04/AI.png",
+    gitUrl: "https://github.com/Rishabh3112002/FaceTag",
+  },
+  {
     title: "DwarfURL",
     content:
       "DwarfURL streamlines link-sharing by automatically condensing lengthy URLs into concise, user-friendly links. With customization options and seamless integration across various platforms, it enhances user experience, saves time, and provides basic analytics for tracking link performance.",

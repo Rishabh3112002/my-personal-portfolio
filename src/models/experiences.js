@@ -1,5 +1,18 @@
 const experiences = [
   {
+    company: "Mantika",
+    role: "Software Engineer",
+    content: [
+      "Collaborating with a team to build an AI-powered property comparison application that structures and embeds unstructured data for accurate and detailed property analysis.",
+      "Built an interactive data orchestration pipeline to structure and embed unstructured data for ML models.",
+      "Automated web scraping and standardized property data into JSON for consistent downstream processing.",
+      "Developed a PyTorch-based model to segment floor plans into rooms and structural components.",
+      "Trained a transformer-based model to vectorize floor plans for property similarity comparisons.",
+      "Created automated triplet dataset generation scripts for training vectorization models.",
+    ],
+      duration: "March 2022 - June 2022",
+  },
+  {
     company: "Xane AI",
     role: "AI Engineer Intern",
     content: [

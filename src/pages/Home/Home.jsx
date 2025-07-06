@@ -68,9 +68,9 @@ function Home() {
           <div className="home-page" style={{ opacity: showMain ? 1 : 0 }}>
             <Landing />
             <About />
-            <Projects slides={projects} />
-            <Skills />
             <Experience slides={experiences} />
+            <Skills />
+            <Projects slides={projects} />
             <Contacts />
           </div>
         </div>
