@@ -17,8 +17,8 @@ function Navbar() {
           </a>
         </li>
         <li className="nav-item1">
-          <a href="#proj" className="nav-link1">
-            Projects
+          <a href="#exp" className="nav-link1">
+            Work
           </a>
         </li>
         <li className="nav-item1">
@@ -27,8 +27,8 @@ function Navbar() {
           </a>
         </li>
         <li className="nav-item1">
-          <a href="#exp" className="nav-link1">
-            Work
+          <a href="#proj" className="nav-link1">
+            Projects
           </a>
         </li>
         <li className="nav-item1">
