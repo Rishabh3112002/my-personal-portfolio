@@ -8,7 +8,7 @@ const experiences = [
       "Automated web scraping and standardized property data into JSON for consistent downstream processing.",
       "Developed a PyTorch-based model to segment floor plans into rooms and structural components.",
     ],
-      duration: "March 2022 - June 2022",
+      duration: "September 2024 - January 2025",
   },
   {
     company: "Xane AI",
@@ -19,7 +19,7 @@ const experiences = [
       "Implemented a precise signature verification model with 92.68% accuracy, enhancing security and authenticity verification.",
       "Engineered a content analysis model that boosted document processing efficiency by 30%, improving overall workflow effectiveness.",
     ],
-    duration: "August 2022 - Present",
+    duration: "August 2022 - July 2025",
   },
   {
     company: "CASS AIOT",
